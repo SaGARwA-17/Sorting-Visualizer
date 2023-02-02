@@ -1,0 +1,171 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: blueviolet;
+  color: white;
+}
+
+.array-inputs {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.size-speed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5.6rem;
+}
+
+.array-size{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.array-speed{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.array-inputs #a_size {
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.array-inputs #a_speed {
+  padding: 10px 0%;
+  cursor: pointer;
+}
+
+.new-array-btn {
+  margin-bottom: 2rem;
+  position: relative;
+  left: 37%;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  width: 20rem;
+  cursor: pointer;
+
+}
+
+h1{
+  font-size: 50px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+nav .header_right .algos {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .header_right .algos .btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 15px 7px;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+nav .header_right .algos .btn:hover {
+  background-color: white;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: blueviolet;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+section #array_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.hide {
+  display: none;
+}
